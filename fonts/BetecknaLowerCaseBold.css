@@ -1,0 +1,36 @@
+/* Webfont: BetecknaLowerCase */@font-face {
+    font-family: 'BetecknaLowerCase';
+    src: url('fonts/BetecknaLowerCase.eot'); /* IE9 Compat Modes */
+    src: url('fonts/BetecknaLowerCase.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/BetecknaLowerCase.woff') format('woff'), /* Modern Browsers */
+         url('fonts/BetecknaLowerCase.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/BetecknaLowerCase.svg#BetecknaLowerCase') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: BetecknaLowerCaseBold */@font-face {
+    font-family: 'BetecknaLowerCase';
+    src: url('fonts/BetecknaLowerCaseBold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/BetecknaLowerCaseBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/BetecknaLowerCaseBold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/BetecknaLowerCaseBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/BetecknaLowerCaseBold.svg#BetecknaLowerCaseBold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: BetecknaLowerCaseItalic */@font-face {
+    font-family: 'BetecknaLowerCase';
+    src: url('fonts/BetecknaLowerCaseItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/BetecknaLowerCaseItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/BetecknaLowerCaseItalic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/BetecknaLowerCaseItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/BetecknaLowerCaseItalic.svg#BetecknaLowerCaseItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

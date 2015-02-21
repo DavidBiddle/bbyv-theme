@@ -1,0 +1,69 @@
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+  margin:auto;
+  display: block;
+}
+
+img.logo{
+  max-height:40px;
+  float:left;
+  display: inline;
+  margin-right: .5em;
+}
+
+figure {
+	margin: 0;
+}
+
+
+.acknowledgements {
+  @include clearfix;
+  margin:auto;
+  width:80%;
+  padding:0;
+  li{
+    list-style: none;
+    display:inline;
+    float:left;
+    width:40%;
+    margin:5%;
+  }
+  img{
+      max-height: 100px;
+      max-width:100%;
+    margin:auto;
+  }
+}
+
+@media(min-width:300px){
+  .acknowledgements {
+  @include clearfix;
+    margin:auto;
+    width:80%;
+    padding:0;
+    li{
+      list-style: none;
+      display:inline;
+      float:left;
+      width:20%;
+      margin: 2.5%;
+    }
+    img{
+      max-height: 100px;
+      max-width:100%;
+      margin:auto;
+    }
+  }
+}
+
+@import "tables";

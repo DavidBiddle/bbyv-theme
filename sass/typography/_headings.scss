@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+  font-family: $font__headers;
+  font-weight: 300;
+  color: $purple;
+}
+
+h1,h2,footer{
+  text-align: center;
+}
+
+h2{
+  @include adjust-font-size-to($bigger-font-size);
+  @media(max-width:500px){
+    @include adjust-font-size-to($slightly-bigger-font-size);
+  }  
+}
+
+.entry-content{
+  h1{
+    @include adjust-font-size-to($biggest-font-size);
+  }
+
+  h2{
+    @include adjust-font-size-to($bigger-font-size);
+    @media(max-width:500px){
+      @include adjust-font-size-to($slightly-bigger-font-size);
+    }
+  }
+
+  h3{
+    @include adjust-font-size-to($slightly-bigger-font-size);
+    @include padding-trailer(0.5);
+    font-weight: 300;
+  }
+
+  h4{
+    font-weight:700;
+  }
+
+  h5{
+    font-weight:400;
+  }
+
+  h6{
+    font-style: italic;
+  }
+}
