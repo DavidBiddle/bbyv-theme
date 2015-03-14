@@ -1,1 +1,1 @@
-Theme for Bristol Big Youth Vote site based on underscores starter theme.
+Theme for Bristol Big Youth Vote site based on [Underscores](http://underscores.me). 
